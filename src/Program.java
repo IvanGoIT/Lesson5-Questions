@@ -6,5 +6,13 @@ public class Program {
 
         generator.generate(100);
         System.out.println("Колизий = " + generator.calcCountOfCollisions());
+        // -------------------------------
+
+        Door door = new Door();
+        System.out.println("Дверь открыта? " + door.toggleState());
+        System.out.println("Дверь открыта? " + door.toggleState());
+        System.out.println("Дверь открыта? " + door.toggleState());
+        System.out.println("Дверь открыта? " + door.toggleState());
+        System.out.println("Дверь открыта? " + door.toggleState());
     }
 }
