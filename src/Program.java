@@ -12,7 +12,10 @@ public class Program {
         System.out.println("Дверь открыта? " + door.toggleState());
         System.out.println("Дверь открыта? " + door.toggleState());
         System.out.println("Дверь открыта? " + door.toggleState());
-        System.out.println("Дверь открыта? " + door.toggleState());
-        System.out.println("Дверь открыта? " + door.toggleState());
+
+        // ---------------------------------------------------------------
+
+        ConsoleInput consoleInput = new ConsoleInput();
+        int x = consoleInput.readInt("Введи любое число");
     }
 }
